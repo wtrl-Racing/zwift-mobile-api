@@ -1,12 +1,12 @@
 {
   "name": "zwift-mobile-api",
-  "version": "0.3.19",
+  "version": "0.3.20",
   "description": "Libraries to simplify accessing the Zwift Mobile API",
-  "homepage": "https://github.com/Ogadai/zwift-mobile-api",
-  "repository": "https://github.com/Ogadai/zwift-mobile-api.git",
-  "author": "Andy Lee <andy.lee.surfer@gmail.com> (https://github.com/Ogadai)",
+  "homepage": "https://github.com/wtrl-Racing/zwift-mobile-api",
+  "repository": "https://github.com/wtrl-Racing/zwift-mobile-api.git",
+  "author": "WTRL <racecontrol@wtrl.racing> (https://github.com/wtrl-Racing)",
   "contributors": [
-    "Andy Lee <andy.lee.surfer@gmail.com>"
+    "WTRL <racecontrol@wtrl.racing>"
   ],
   "license": "MIT",
   "keywords": [],
