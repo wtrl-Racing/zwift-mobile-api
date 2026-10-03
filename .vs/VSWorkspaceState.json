@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src"
   ],
+  "SelectedNode": "\\src\\mapLatLong.js",
   "PreviewInSolutionExplorer": false
 }

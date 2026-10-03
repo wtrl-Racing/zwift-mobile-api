@@ -21,4 +21,17 @@ module.exports = function getAccessToken(username, password, refreshToken = null
     }
 
     return axios.post(SECURE_URL, qs.stringify(data))
+        .catch(error => {
+            const response = error.response;
+            const details = response && response.data;
+
+            console.error('Zwift service-account authentication failed:', {
+                url: SECURE_URL,
+                status: response && response.status,
+                error: details && details.error,
+                description: details && details.error_description
+            });
+
+            throw error;
+        });
 }
