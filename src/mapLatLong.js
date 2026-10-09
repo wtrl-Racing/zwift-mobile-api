@@ -58,7 +58,16 @@
       lat: 0,
       long: 0
     }
-  }
+   },
+  11: {
+    toXY: (lat, long) => ({
+      x: Math.round(52253 + (lat - 48.872407) * 11114454.893769274 ),
+      y: Math.round(-105333 + (long - 2.299745) * 7325410.355072868 )
+     }),
+      offset: {
+          lat: 0, long: 0
+      }
+   },
 }
 
 module.exports = maps

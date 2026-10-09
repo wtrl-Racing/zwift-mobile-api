@@ -1,6 +1,6 @@
 {
   "name": "zwift-mobile-api",
-  "version": "0.3.20",
+  "version": "0.3.22",
   "description": "Libraries to simplify accessing the Zwift Mobile API",
   "homepage": "https://github.com/wtrl-Racing/zwift-mobile-api",
   "repository": "https://github.com/wtrl-Racing/zwift-mobile-api.git",
